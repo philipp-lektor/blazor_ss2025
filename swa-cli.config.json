@@ -1,0 +1,17 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "blazor-ss2025": {
+      "appLocation": "Client",
+      "apiLocation": "Api",
+      "outputLocation": "bin\\wwwroot",
+      "apiLanguage": "dotnetisolated",
+      "apiVersion": "9.0",
+      "appBuildCommand": "dotnet publish -c Release -o bin",
+      "apiBuildCommand": "dotnet publish -c Release",
+      "run": "dotnet watch run",
+      "appDevserverUrl": "http://localhost:5000",
+      "appName": "blazor-ss2025"
+    }
+  }
+}
